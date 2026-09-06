@@ -36,8 +36,8 @@ Track    →  Syncs everything to a live Google Sheet Follow-up →  Auto-sends 
 
 ### 1. Clone this repository
 ```bash
-git clone 
-cd attachment-outreach-agent
+git clone https://github.com/shutter-bashir/BASHIR-2.0.git
+cd BASHIR-2.0
 ```
 
 ### 2. Install dependencies
