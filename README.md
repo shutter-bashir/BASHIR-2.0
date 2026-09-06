@@ -1,4 +1,4 @@
-# 🎓 Internship/Attachment Outreach Agent
+#  Internship/Attachment Outreach Agent
 
 > **An AI-powered multi-agent system that automates your internship/attachment search** — from discovering companies to sending personalized emails and tracking responses.
 
