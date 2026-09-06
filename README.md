@@ -84,20 +84,20 @@ python main.py run            # Run everything: scout → hunt → compose → d
 
 ### Individual Steps
 ```bash
-python main.py scout          # 🔍 Search for IT companies
-python main.py hunt           # 📧 Extract emails from websites
-python main.py compose        # ✍️ Write personalized emails with AI
-python main.py draft          # 📬 Create Gmail drafts with CV attached
-python main.py track          # 📊 Sync to Google Sheet
-python main.py followup       # 🔄 Check responses & send follow-ups
+python main.py scout          #  Search for IT companies
+python main.py hunt           #  Extract emails from websites
+python main.py compose        #  Write personalized emails with AI
+python main.py draft          #  Create Gmail drafts with CV attached
+python main.py track          #  Sync to Google Sheet
+python main.py followup       #  Check responses & send follow-ups
 ```
 
 ### Monitoring & Control
 ```bash
-python main.py status         # 📈 View pipeline statistics
-python main.py review         # 📋 List drafts ready for review
-python main.py send           # 📤 Send approved drafts
-python main.py test           # 🧪 Test all API connections
+python main.py status         #  View pipeline statistics
+python main.py review         #  List drafts ready for review
+python main.py send           #  Send approved drafts
+python main.py test           #  Test all API connections
 ```
 
 ### Options
@@ -163,7 +163,7 @@ Customize the geographic zones to search for companies in your city:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 attachment-outreach-agent/
@@ -203,7 +203,7 @@ attachment-outreach-agent/
 
 ---
 
-## 🔧 How to Customize
+##  How to Customize
 
 ### For Your University
 1. Edit `config.json` → update your name, email, university, course, and skills
@@ -242,16 +242,16 @@ Run `python main.py status` to see your progress:
 ┌─────────────────────────────────┬───────┬────────────┐
 │ Stage                           │ Count │ Status     │
 ├─────────────────────────────────┼───────┼────────────┤
-│ 🔍 Companies Discovered        │   150 │ ████       │
-│ 📧 Emails Extracted            │    89 │ ███        │
-│ ✍️ Emails Composed             │    89 │ ███        │
-│ 📬 Drafts Created              │    89 │ ███        │
-│ 📤 Emails Sent                 │    75 │ ███        │
-│ 🔄 Follow-up 1 Sent            │    30 │ █          │
-│ ✅ Responses Received           │    12 │            │
+│  Companies Discovered        │   150 │ ████       │
+│  Emails Extracted            │    89 │ ███        │
+│  Emails Composed             │    89 │ ███        │
+│  Drafts Created              │    89 │ ███        │
+│  Emails Sent                 │    75 │ ███        │
+│  Follow-up 1 Sent            │    30 │ █          │
+│  Responses Received           │    12 │            │
 └─────────────────────────────────┴───────┴────────────┘
 
-📊 Response Rate: 16.0% (12/75)
+Response Rate: 16.0% (12/75)
 ```
 
 ---
@@ -283,6 +283,6 @@ This tool is designed to help students find legitimate internship opportunities.
 
 ---
 
-**Made with ❤️ to help students find their dream internship.**
+**Made with love to help students find their dream internship.**
 
 *If this helped you land an attachment, please ⭐ star this repo!*
