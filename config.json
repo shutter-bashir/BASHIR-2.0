@@ -1,0 +1,138 @@
+{
+    "student": {
+        "name": "YOUR FULL NAME",
+        "email": "your.email@gmail.com",
+        "phone": "+254700000000",
+        "course": "YOUR COURSE NAME",
+        "university": "YOUR UNIVERSITY NAME",
+        "year": 3,
+        "attachment_start": "January 2027",
+        "attachment_end": "March 2027",
+        "attachment_duration": "3 months",
+        "skills": [
+            "Python",
+            "JavaScript",
+            "SQL",
+            "Git",
+            "Networking"
+        ],
+        "interests": [
+            "Software Development",
+            "Cybersecurity",
+            "Networking",
+            "Data Science",
+            "IT Support",
+            "Web Development",
+            "Fintech"
+        ]
+    },
+    "search": {
+        "zones": [
+            {
+                "name": "Nairobi CBD",
+                "latitude": -1.2864,
+                "longitude": 36.8172,
+                "radius_meters": 3000
+            },
+            {
+                "name": "Westlands",
+                "latitude": -1.2674,
+                "longitude": 36.811,
+                "radius_meters": 3000
+            },
+            {
+                "name": "Upper Hill",
+                "latitude": -1.2981,
+                "longitude": 36.8155,
+                "radius_meters": 2000
+            },
+            {
+                "name": "Kilimani",
+                "latitude": -1.2891,
+                "longitude": 36.7838,
+                "radius_meters": 2000
+            },
+            {
+                "name": "Parklands",
+                "latitude": -1.2612,
+                "longitude": 36.8181,
+                "radius_meters": 2000
+            },
+            {
+                "name": "Industrial Area",
+                "latitude": -1.31,
+                "longitude": 36.85,
+                "radius_meters": 3000
+            },
+            {
+                "name": "Gigiri",
+                "latitude": -1.234,
+                "longitude": 36.813,
+                "radius_meters": 2000
+            }
+        ],
+        "search_queries": [
+            "software development companies",
+            "tech startups",
+            "SaaS companies",
+            "mobile app development companies",
+            "software engineering firms",
+            "fintech companies",
+            "payment solutions companies",
+            "mobile money companies",
+            "digital banking companies",
+            "financial technology startups",
+            "cybersecurity firms",
+            "information security companies",
+            "cyber defense companies",
+            "data analytics companies",
+            "AI machine learning companies",
+            "big data companies",
+            "business intelligence companies",
+            "network solutions companies",
+            "cloud computing companies",
+            "internet service providers",
+            "managed IT services",
+            "telecommunications companies",
+            "web development agency",
+            "digital agencies",
+            "UI UX design firms",
+            "digital marketing technology companies",
+            "e-commerce technology companies",
+            "IT companies",
+            "IT consulting firms",
+            "IT support companies",
+            "ERP solutions companies",
+            "IT outsourcing companies",
+            "technology companies",
+            "systems integration companies",
+            "IT training companies",
+            "hardware and networking companies",
+            "blockchain companies",
+            "IoT companies",
+            "GIS mapping technology companies",
+            "health tech companies",
+            "edtech companies",
+            "agritech companies",
+            "logistics technology companies",
+            "HR technology companies",
+            "legal tech companies",
+            "insurance technology companies"
+        ]
+    },
+    "email": {
+        "daily_send_limit": 50,
+        "throttle_min_seconds": 30,
+        "throttle_max_seconds": 90,
+        "max_followups": 2,
+        "followup_interval_days": 4
+    },
+    "ollama": {
+        "model": "mistral:7b",
+        "base_url": "http://localhost:11434",
+        "temperature": 0.3,
+        "top_p": 0.9
+    },
+    "google_api_key": "YOUR_GOOGLE_API_KEY",
+    "google_sheet_id": null
+}

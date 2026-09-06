@@ -1,0 +1,66 @@
+{
+    "categories": {
+        "software_development": [
+            "software development companies",
+            "tech startups",
+            "SaaS companies",
+            "mobile app development companies",
+            "software engineering firms"
+        ],
+        "fintech": [
+            "fintech companies",
+            "payment solutions companies",
+            "mobile money companies",
+            "digital banking companies",
+            "financial technology startups"
+        ],
+        "cybersecurity": [
+            "cybersecurity firms",
+            "information security companies",
+            "cyber defense companies"
+        ],
+        "data_and_ai": [
+            "data analytics companies",
+            "AI machine learning companies",
+            "big data companies",
+            "business intelligence companies"
+        ],
+        "networking_and_cloud": [
+            "network solutions companies",
+            "cloud computing companies",
+            "internet service providers",
+            "managed IT services",
+            "telecommunications companies"
+        ],
+        "web_development": [
+            "web development agency",
+            "digital agencies",
+            "UI UX design firms",
+            "digital marketing technology companies",
+            "e-commerce technology companies"
+        ],
+        "general_it": [
+            "IT companies",
+            "IT consulting firms",
+            "IT support companies",
+            "ERP solutions companies",
+            "IT outsourcing companies",
+            "technology companies",
+            "systems integration companies",
+            "IT training companies",
+            "hardware and networking companies"
+        ],
+        "specialized": [
+            "blockchain companies",
+            "IoT companies",
+            "GIS mapping technology companies",
+            "health tech companies",
+            "edtech companies",
+            "agritech companies",
+            "logistics technology companies",
+            "HR technology companies",
+            "legal tech companies",
+            "insurance technology companies"
+        ]
+    }
+}

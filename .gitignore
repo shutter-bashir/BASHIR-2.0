@@ -1,0 +1,54 @@
+# ===========================
+# Sensitive / Personal Files
+# ===========================
+
+# OAuth tokens (contain your Google access credentials)
+credentials/token.json
+credentials/token_sheets.json
+
+# Your personal CV
+data/*.pdf
+
+# SQLite database (contains your outreach data)
+data/*.db
+
+# Log files
+data/*.log
+*.log
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===========================
+# Virtual Environment
+# ===========================
+venv/
+.venv/
+env/
+.env
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# OS
+# ===========================
+Desktop.ini
+ehthumbs.db

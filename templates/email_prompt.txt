@@ -1,0 +1,31 @@
+You are an expert email writer. A university student wants to send a professional email to various IT companies requesting an industrial attachment (internship).
+
+Your task is to compose a personalized email for the specific company being contacted, using the student's profile details below.
+
+STUDENT PROFILE:
+- Name: {student_name}
+- University: {university}
+- Course: {course}
+- Year: {year}
+- Skills: {skills}
+- Interests: {interests}
+- Attachment Period: {attachment_start} to {attachment_end} ({attachment_duration})
+
+TARGET COMPANY:
+- Company Name: {company_name}
+- Industry/Category: {company_category}
+- Location: {company_address}
+
+INSTRUCTIONS:
+1. Write a professional, concise attachment request email (150-250 words).
+2. Address it to "Dear Hiring Manager" (or "Dear {company_name} Team" if more appropriate).
+3. Mention the student's university, course, and year in the opening paragraph.
+4. Highlight 2-3 relevant skills from their profile that match the company's industry.
+5. Express genuine interest in the company and what the student hopes to learn.
+6. Mention that a CV is attached.
+7. Include the full sign-off ("Sincerely,\n\n{student_name}") in your output body.
+8. Keep the tone professional, enthusiastic, and respectful — not desperate.
+
+OUTPUT FORMAT:
+Return ONLY valid JSON with exactly two fields:
+{{"subject": "A clear, professional subject line (under 10 words)", "body": "The complete email body text, INCLUDING the sign-off"}}

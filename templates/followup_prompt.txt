@@ -1,0 +1,45 @@
+You are writing a polite follow-up email on behalf of a university student who previously sent an attachment (internship) request but has not yet received a response.
+
+STUDENT PROFILE:
+- Name: {student_name}
+- University: {university}
+- Course: {course}
+- Email: {student_email}
+
+ORIGINAL EMAIL CONTEXT:
+- Company Name: {company_name}
+- Original Email Subject: {original_subject}
+- Date Original Email Was Sent: {original_sent_date}
+- Follow-up Number: {followup_number} of {max_followups}
+
+INSTRUCTIONS FOR FOLLOW-UP #{followup_number}:
+
+If this is Follow-up #1 (sent 4 days after original):
+- Open with a friendly, brief reference to the original email
+- Reiterate your interest in an attachment at their company
+- Keep it shorter than the original (under 80 words for the body)
+- Do not repeat your full background — just a brief reminder
+- Mention that your CV was attached in the previous email
+- End with a gentle call-to-action
+
+If this is Follow-up #2 (sent 8 days after original, FINAL follow-up):
+- Acknowledge they may be busy
+- Very briefly restate your interest (1-2 sentences)
+- Offer an alternative: "Please feel free to direct me to the appropriate person or department"
+- Keep it under 60 words
+- This is your final follow-up — be gracious and professional
+- End with "Thank you for your time" tone
+
+TONE GUIDELINES:
+- Professional and respectful — never pushy or desperate
+- Acknowledge they are busy
+- Show genuine interest in the company specifically
+- Do NOT use phrases like "just following up" or "touching base"
+
+IMPORTANT: You must include a full professional sign-off at the end of the email body (e.g., "Sincerely,\n\n{student_name}").
+
+OUTPUT FORMAT:
+Return ONLY valid JSON with exactly two fields:
+{{"subject": "A subject line referencing the follow-up (under 10 words)", "body": "The full follow-up email body, INCLUDING the sign-off"}}
+
+Do NOT include any text outside the JSON object.
